@@ -1,0 +1,330 @@
+export const sampleData = {
+  id: "root",
+  title: "Carte Mentale thématique de ma pratique numérique",
+  children: [
+    {
+      id: "c1",
+      title: "Data",
+      text: "Interpréter le flux de données incessant et débordant qui nous entoure et régit nos vies. Interagir avec ces masses, les classer, les ranger, les naviguer. Savoir identifier où les données apparaissent, ce que l’on sait sur nous, ce qui s’accumule. La surveillance de masse.",
+      children: [
+        {
+          id: "c1a",
+          title: "Banques de données",
+          text: "Comment les naviguer, quelles données accumuler et de quelle manière les récolter.",
+        },
+        {
+          id: "c1b",
+          title: "Listes (méta lol)",
+        },
+        {
+          id: "c1c",
+          title: "Vidéosurveillance",
+          text: "Trouver des échappatoires au fichage numérique, au suivi et tracking des moindres faits et gestes. À la fois dans l’espace public et numérique (internet n’est pas un espace public mais un espace privé et acheté).",
+        },
+        {
+          id: "c1d",
+          title: "Datavisualisation",
+          text: "Comment voir la donnée, les données, leur accumulation.",
+        },
+        {
+          id: "c1e",
+          title: "Interfaces",
+          text: "Comment s’y retrouver dans ces données, à la fois ne pas s’y perdre et y trouver un sens.",
+        },
+        {
+          id: "c1f",
+          title: "Aram Bartholl",
+          link: "https://arambartholl.com",
+          text: "Artiste qui explore les interactions entre espace public, culture numérique et données matérielles.",
+        },
+      ],
+    },
+    {
+      id: "c2",
+      title: "Communauté",
+      text: "Faire exister des temps, moments et environnements de partages. Comment faire à plusieurs, comment relier des gens à travers des outils et des plateformes, par le web ou en physique. Comment échanger des idées, des formes de luttes, s’indépendantiser du global-web, faire du local-web. Savoir se défendre contre lui, s’anonymiser.",
+      children: [
+        {
+          id: "c2a",
+          title: "Hacking",
+          text: "Subversion créative des systèmes techniques et sociaux, une lutte politique en ligne.",
+        },
+        {
+          id: "c2b",
+          title: "Cyberféminisme",
+          text: "Genre, technologie et émancipation numérique.",
+        },
+        {
+          id: "c2c",
+          title: "Open-source",
+          text: "Pratique du partage ouvert, de l’entraide, des outils démontables, réengageables, réutilisables.",
+        },
+        {
+          id: "c2d",
+          title: "Collaboration, partage",
+          text: "Méthodes d’interaction collective, horizontale et distribuée.",
+        },
+        {
+          id: "c2e",
+          title: "Réseaux de partage, peer-to-peer",
+          text: "Circulation de ressources sans autorité centrale. Loin des hégémonies, à petite échelle.",
+        },
+        {
+          id: "c2f",
+          title: "Protocoles de collaborations",
+          text: "Manières d’écrire, échanger, co-créer, protocoles techniques également (LoRa, meshtastic, radio-amateurisme).",
+        },
+        {
+          id: "c2g",
+          title: "Transhumanisme",
+          text: "La machine comme une extension du corps, où s’arrête internet ? Balance entre une vie physique et connectée, mélange et interconnexion des deux.",
+        },
+        {
+          id: "c2h",
+          title: "Bibliothèques pirates",
+          text: "Archives libres et non officielles de savoirs partagés. Partages de ressources militantes, à échelle humaine, faire communauté autour d’un même outil et de mêmes ressources.",
+        },
+        {
+          id: "c2i",
+          title: "Autodéfense numérique",
+          text: "Pratiques de sécurité et d’anonymat en ligne. Se protéger dans sa lutte, se décentraliser.",
+        },
+        {
+          id: "c2j",
+          title: "Documentation",
+          text: "Rendre transmissible un savoir, permettre la collaboration et la continuation d’un projet. Transparence et mise en valeur des processus de recherche.",
+        },
+        {
+          id: "c2k",
+          title: "Non-communication / à faible échelle",
+          text: "Refuser les plateformes classiques de partages, rendre le partage communautaire (webrings par exemple).",
+        },
+        {
+          id: "c2l",
+          title: "✶ Multidimensional Link",
+          link: "https://multidimensional.link/workshops.html",
+          text: "Plateforme d’ateliers et de pratiques collectives autour du numérique et de l’émancipation.",
+        },
+        {
+          id: "c2m",
+          title: "CLUB1",
+          link: "https://club1.fr/membres",
+          text: "Serveur communautaire hébergé dans un couloir d’immeuble en région parisienne.",
+        },
+        {
+          id: "c2n",
+          title: "PL4TFORM",
+          link: "https://pl4tform.org/",
+          text: "Plateforme de radiodiffusion en itinérance/off-grid.",
+        },
+        {
+          id: "c2o",
+          title: "Design libre",
+          link: "https://radicalweb.design/recherche/notes/libre/",
+          text: "De l’importance de l’outil libre, adaptable et modifiable par l’utilisateur·ice.",
+        },
+        {
+          id: "c2p",
+          title: "Guide d’autodéfense numérique",
+          link: "https://guide.boum.org/",
+          text: "Un superbe guide d’autodéfense numérique très complet.",
+        },
+        {
+          id: "c2q",
+          title: "Serial Experiment Lain",
+          link: "https://www.liverpooluniversitypress.co.uk/doi/full/10.3828/sfftv.2023.4",
+          text: "Série animée, exploration de l’internet et de la rupture des barrières avec le monde réel.",
+        },
+      ],
+    },
+    {
+      id: "c3",
+      title: "Web as a standard",
+      text: "Utiliser le web comme un outil, avec ses conventions et ses limitations. Faire du méta-design, parler de ce qu’est le web à travers le web. Détourner les conventions, le vernaculaire du web, réutiliser des templates «bootstrap», les modifier, en faire un récit autre.",
+      children: [
+        {
+          id: "c3a",
+          title: "Ésotérisme numérique (Temple OS, divine machine)",
+          text: "La programmation comme une vision mystique, poétique ou religieuse, mêler l’ancien et le surnaturel avec le numérique.",
+        },
+        {
+          id: "c3b",
+          title: "Protocoles informatiques détournés, aléatoires",
+          text: "Réinterpréter les fondations techniques du réseau, en détourner les codes.",
+        },
+        {
+          id: "c3c",
+          title: "Non-esthétique, non-images",
+          text: "Refuser la brillance, qui obstrue le fond technique et nuit à l’accessibilité.",
+        },
+        {
+          id: "c3d",
+          title: "Réutilisation et réinterprétation d’éléments du web",
+          text: "Détournement des normes graphiques et des usages standardisés.",
+        },
+        {
+          id: "c3e",
+          title: "Éditions par le numérique, transfuge",
+          text: "Publier à travers, contre, avec les codes du web.",
+        },
+        {
+          id: "c3f",
+          title: "Folklore internet / Vernaculaire du numérique",
+          text: "Standards du numérique (Flash, W3C), langage natif du web, imaginaires et histoires collectives.",
+        },
+        {
+          id: "c3g",
+          title: "Net art",
+          text: "Explorer l’internet comme matière et médium artistique, à partir de ses fondations.",
+        },
+        {
+          id: "c3h",
+          title: "Suzanne Treister",
+          link: "https://www.suzannetreister.net/",
+          text: "Artiste qui explore l’imaginaire technologique et l’occultisme numérique.",
+        },
+        {
+          id: "c3i",
+          title: "Raphaël Bastide",
+          link: "https://raphaelbastide.com/",
+          text: "Créateur d’œuvres et d’outils web open-source interrogeant les standards du web.",
+        },
+        {
+          id: "c3j",
+          title: "Yann Trividic",
+          link: "https://www.yanntrividic.fr/?lang=en",
+          text: "Designer explorant les usages et langages du web contemporain.",
+        },
+        {
+          id: "c3k",
+          title: "Digital Folklore Reader",
+          link: "https://digitalfolklore.org/",
+          text: "Archive théorique et visuelle du folklore d’internet.",
+        },
+        {
+          id: "c3l",
+          title: "Hoverstat.es archive",
+          link: "https://www.hoverstat.es/archive/",
+          text: "Catalogue de sites expérimentaux et alternatifs.",
+        },
+        {
+          id: "c3m",
+          title: "HTML Day 2025",
+          link: "https://www.are.na/html-energy/websites-made-on-html-day-2025",
+          text: "Collection de sites artisanaux célébrant le web brut.",
+        },
+        {
+          id: "c3n",
+          title: "Rosa Menkman",
+          link: "https://rosa-menkman.blogspot.com/",
+          text: "Recherche critique sur la glitch-culture et l’esthétique de l’erreur.",
+        },
+        {
+          id: "c3o",
+          title: "Notes Folklore",
+          link: "https://radicalweb.design/recherche/notes/folklore/",
+          text: "Notes de recherche sur la mémoire collective du web.",
+        },
+        {
+          id: "c3p",
+          title: "Web artisanal | Figma Blog",
+          link: "https://www.figma.com/fr-fr/blog/making-space-for-a-handmade-web/",
+          text: "Réflexion sur la place du web manuel face à l’automatisation du design.",
+        },
+        {
+          id: "c3q",
+          title: "Olia Lialina",
+          link: "https://art.teleportacia.org/observation/vernacular/",
+          text: "Étude sur le web vernaculaire, ses créateurs autodidactes et ses signes.",
+        },
+        {
+          id: "c3r",
+          title: "Sebastian Schmieg",
+          link: "https://sebastianschmieg.com/info/",
+          text: "Le captcha comme outil artistique exposable, ready-made contemporain.",
+        },
+        {
+          id: "c3s",
+          title: "TempleOS",
+          link: "https://templeos.org/",
+          text: "Système d’exploitation mystico-technique, œuvre prophétique de Terry A. Davis.",
+        },
+        {
+          id: "c3t",
+          title: "Graphisme en France n°28",
+          link: "https://www.cnap.fr/actualites/graphisme-en-france/revues/ndeg28-graphisme-en-france-creation-outils-recherche-2022",
+          text: "Publication autour du graphisme, des outils, de la recherche et du code.",
+        },
+      ],
+    },
+    {
+      id: "c4",
+      title: "Low-Tech",
+      text: "(Low Tech : forme de technologie ayant un impact environnemental limité, vivre avec moins) Comment exister à part, être en autarcie numérique. Technologie Off-Grid, itinérante. Re-individualiser le numérique. Se détacher de la course à l’efficacité. Faire du moins, faire autrement.",
+      children: [
+        {
+          id: "c4a",
+          title: "Artisanat numérique, web fait main",
+          text: "Pratiques manuelles et lentes du code, pour un code lisible et à faible coût énergétique.",
+          link: "https://luckysoap.com/statements/handmadeweb.html",
+        },
+        {
+          id: "c4b",
+          title: "Communications numériques et analogues alternatives",
+          text: "Réseaux indépendants et hybrides.",
+        },
+        {
+          id: "c4c",
+          title: "ASCII art",
+          text: "Graphisme textuel, minimal et universel, réalisable avec un éditeur de texte nu.",
+        },
+        {
+          id: "c4d",
+          title: "Radio, ondes RF",
+          text: "Transmission libre, invisible et analogique, à la fois lisible et ésotérique.",
+        },
+        {
+          id: "c4e",
+          title: "Permacomputing",
+          text: "Pensée écologique du matériel et du logiciel.",
+        },
+        {
+          id: "c4f",
+          title: "Low-Tech Magazine",
+          link: "https://solar.lowtechmagazine.com/",
+          text: "Revue alimentée à l’énergie solaire, dédiée à la sobriété numérique.",
+        },
+        {
+          id: "c4g",
+          title: "Outdoor Computer Club",
+          link: "https://alixturcq.club1.fr/outdoorcomputerclub/ressources/",
+          text: "Collectif mouvant pratiquant un numérique en plein air.",
+        },
+        {
+          id: "c4h",
+          title: "100R — uxn",
+          link: "https://100r.co/site/uxn.html",
+          text: "Wiki hyper minimaliste autour de pratiques du code à très bas impact.",
+        },
+        {
+          id: "c4i",
+          title: "XXIIVV — permacomputing",
+          link: "https://wiki.xxiivv.com/site/permacomputing.html",
+          text: "Wiki encore plus minimaliste autour de la sobriété numérique.",
+        },
+        {
+          id: "c4j",
+          title: "i feel so much shame ♡",
+          link: "https://ifeelsomuchsha.me/",
+          text: "Poème mêlant numérique et analogique (risographie).",
+        },
+        {
+          id: "c4k",
+          title: "Low-Tech",
+          link: "https://damaged.bleu255.com/Low-Tech/",
+          text: "Réflexions et projets autour des technologies sobres.",
+        },
+      ],
+    },
+  ],
+};

@@ -1,0 +1,125 @@
+:root {
+    --bg: #ffffff;
+    --card: #00f;
+    --accent: #f0f;
+    --muted: #ddd;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family:
+        Inter,
+        system-ui,
+        Segoe UI,
+        Roboto,
+        Arial;
+}
+body {
+    background: var(--bg);
+    color: #e6eef8;
+}
+#app {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+canvas#links {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+.stage {
+    position: absolute;
+    inset: 0;
+    pointer-events: auto;
+}
+.node {
+    position: absolute;
+    z-index: 2;
+    min-width: 120px;
+    max-width: 360px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: var(--card);
+    cursor: grab;
+}
+.node.dragging {
+    cursor: grabbing;
+}
+.node .head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.node .title {
+    font-weight: 600;
+    font-size: 14px;
+}
+.node .controls {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
+.node .controls button {
+    background: transparent;
+    border: 0;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 4px;
+}
+.node .content {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #dbeafe;
+}
+.node img {
+    max-width: 320px;
+    display: block;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.legend {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+}
+a.node-link {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.collapsed > .children {
+    display: none !important;
+}
+.children {
+    position: relative;
+}
+@media (max-width: 600px) {
+    .node {
+        min-width: 100px;
+        padding: 8px;
+    }
+    .node img {
+        max-width: 220px;
+    }
+}
+
+.root-node {
+    background: var(--accent);
+}
+
+.leaf-node {
+    background: var(--muted);
+}
+
+.has-image {
+    background: #004;
+}
+
+.has-link {
+    border: 2px solid var(--accent);
+}
+
+.has-text {
+    border: 2px solid var(--muted);
+}
